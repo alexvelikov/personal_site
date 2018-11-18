@@ -59,7 +59,7 @@
     padding: 0;
     background: darken($primary-color, 5);
     list-style: none;
-    transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, 100%, 0);
     @include easeOut;
 
     &.show {
@@ -69,7 +69,7 @@
 
   &-branding {
     background: $primary-color;
-    transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, -100%, 0);
     @include easeOut;
 
     &.show {
